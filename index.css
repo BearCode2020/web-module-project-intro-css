@@ -57,7 +57,6 @@ body{
     border-radius: 50%;
     width: 70%;
     padding: 4px;
-    border: 2px solid red;
     margin-top: 5%;
     margin-left: 10%;
     margin-bottom: 5%;
@@ -77,11 +76,11 @@ body{
     padding-top: 10%;
     padding-right: 5px;
     padding-left: 5px;
-    border: 2px solid purple;
 }
 
 #border{
-    border: solid 2px black;
+    padding: 1%;
+    border: solid 2px #F9E7DC;
 }
 
 .fire-container{
@@ -131,7 +130,6 @@ body{
 .big-div{
     display: flex;
     justify-content: center;
-    border: 2px solid blue;
     padding: 0px;
     margin-left: 10%;
     margin-right: 10%;
@@ -149,14 +147,12 @@ body{
 }
 
 .header{
-    border: 2px solid;
 }
 
 .navbar{
     width: 80%;
     margin-top: 2%;
     margin-bottom: 2%;
-    border: 2px solid;
     margin-left: 10%;
     margin-right: 20%;
     text-align: center;
@@ -167,11 +163,15 @@ body{
 }
 
 .text {
-    border: 2px solid sandybrown;
-    background-color: brown;
+    background-color: #DDB9A3;
     color: white;
     text-align: center;
     margin-top: 1%;
+    padding: 1%;
+}
+
+#bold {
+    font-weight: bold;
 }
 
 .page-ender{
@@ -188,5 +188,17 @@ body{
 }
 
 .foot-nav{
-    background: sandybrown;
+    background: #F9E7DC;
+}
+
+#Plan{
+    background: #FF764E;
+}
+
+#Park{
+    background: #5ED3EB;
+}
+
+#Involved{
+    background: #FFCD69;
 }
